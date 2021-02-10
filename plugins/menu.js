@@ -25,7 +25,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     let uptime = clockString(_uptime)
     let totalreg = Object.keys(global.DATABASE._data.users).length
     let tags = {
-      'main': 'Main',
+      'main': 'Menu',
       'info': 'Info BOT',
       'xp': 'Exp & Limit',
       '': 'No Category',
